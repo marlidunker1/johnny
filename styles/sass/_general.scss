@@ -1,0 +1,55 @@
+//general styles
+
+
+$primary: black;
+$secondary: white;
+$splash: orange;
+
+$font: 'Roboto Mono', monospace;
+
+html {
+    font-size: 125%;
+    position: relative;
+    background: $splash;
+}
+
+
+@mixin font-size($size-value) {
+    font-size: $size-value * 1px;
+    font-size: ($size-value/20) * 1rem;
+  }
+
+
+.wrapper {
+    max-width: 1280px;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    margin: 0;
+    padding: 1rem 0;
+    font-family: $font;
+    text-transform: uppercase;
+    color: $secondary;
+    letter-spacing: 2px;
+}
+
+h3 {
+    margin: 0;
+    font-family: $font;
+    font-weight: 300;
+    color: $secondary;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+

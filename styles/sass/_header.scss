@@ -1,0 +1,25 @@
+header.parallax {
+        background-image: url(../assets/13720012.jpg);
+
+    .streamBox {
+        text-align: center;
+        margin-top: 200px;
+        
+ 
+
+        .iconBox {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+
+            a {
+                color: $secondary;
+                padding: 20px;
+            }
+
+            a:hover {
+                color: $splash;
+            }
+        }
+    }
+}
